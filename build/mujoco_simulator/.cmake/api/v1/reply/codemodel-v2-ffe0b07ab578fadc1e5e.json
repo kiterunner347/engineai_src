@@ -1,0 +1,125 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-1638c4c7ae227ec3e135.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						5
+					]
+				},
+				{
+					"build" : "simulate",
+					"jsonFile" : "directory-simulate-Release-754b8207b5c6e05e439e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "simulate",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "mujoco_simulator",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "libsimulate::@15ff4b60f7749b69808e",
+					"jsonFile" : "target-libsimulate-Release-cd9a83e13450d11d0d0f.json",
+					"name" : "libsimulate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "lodepng::@15ff4b60f7749b69808e",
+					"jsonFile" : "target-lodepng-Release-67b7c99d9e20767f77aa.json",
+					"name" : "lodepng",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mujoco_simulator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mujoco_simulator-Release-78b4b72dafd9f80abaff.json",
+					"name" : "mujoco_simulator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "mujoco_simulator_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mujoco_simulator_uninstall-Release-277bacd46919c73f21fa.json",
+					"name" : "mujoco_simulator_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "platform_ui_adapter::@15ff4b60f7749b69808e",
+					"jsonFile" : "target-platform_ui_adapter-Release-390d29e42221cc8363cd.json",
+					"name" : "platform_ui_adapter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-273601706e629a399583.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ubuntu/code/engineai_ros2_workspace/build/mujoco_simulator",
+		"source" : "/home/ubuntu/code/engineai_ros2_workspace/src/simulation/mujoco"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

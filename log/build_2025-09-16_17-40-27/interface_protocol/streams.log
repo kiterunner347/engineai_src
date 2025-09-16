@@ -1,0 +1,596 @@
+[0.004s] Invoking command in '/home/ubuntu/code/engineai_ros2_workspace/build/interface_protocol': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/code/engineai_ros2_workspace/src/interface_protocol -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol
+[0.035s] -- The C compiler identification is GNU 11.4.0
+[0.061s] -- The CXX compiler identification is GNU 11.4.0
+[0.064s] -- Detecting C compiler ABI info
+[0.098s] -- Detecting C compiler ABI info - done
+[0.101s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.101s] -- Detecting C compile features
+[0.101s] -- Detecting C compile features - done
+[0.103s] -- Detecting CXX compiler ABI info
+[0.143s] -- Detecting CXX compiler ABI info - done
+[0.146s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.147s] -- Detecting CXX compile features
+[0.147s] -- Detecting CXX compile features - done
+[0.148s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.213s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.250s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.252s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.256s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.277s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.290s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[0.305s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[0.311s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.317s] -- Found message files: msg/BodyVelCmd.msg;msg/GamepadKeys.msg;msg/Heartbeat.msg;msg/ImuInfo.msg;msg/JointCommand.msg;msg/JointState.msg;msg/MotionState.msg;msg/MotorCommand.msg;msg/MotorDebug.msg;msg/MotorState.msg;msg/ParallelParserType.msg;msg/Tts.msg
+[0.317s] -- Found service files: srv/EnableMotor.srv
+[0.476s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[0.590s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.740s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.750s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[0.750s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[0.764s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[0.764s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.764s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[0.764s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[0.773s] -- Found PythonExtra: .so  
+[0.803s] -- Configuring done
+[0.827s] -- Generating done
+[0.832s] -- Build files have been written to: /home/ubuntu/code/engineai_ros2_workspace/build/interface_protocol
+[0.836s] Invoked command in '/home/ubuntu/code/engineai_ros2_workspace/build/interface_protocol' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/code/engineai_ros2_workspace/src/interface_protocol -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol
+[0.838s] Invoking command in '/home/ubuntu/code/engineai_ros2_workspace/build/interface_protocol': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/code/engineai_ros2_workspace/build/interface_protocol -- -j32 -l32
+[0.861s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[0.869s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[0.871s] [  1%] Built target ament_cmake_python_copy_interface_protocol
+[0.969s] running egg_info
+[0.969s] creating interface_protocol.egg-info
+[0.969s] writing interface_protocol.egg-info/PKG-INFO
+[0.969s] writing dependency_links to interface_protocol.egg-info/dependency_links.txt
+[0.969s] writing top-level names to interface_protocol.egg-info/top_level.txt
+[0.969s] writing manifest file 'interface_protocol.egg-info/SOURCES.txt'
+[0.970s] reading manifest file 'interface_protocol.egg-info/SOURCES.txt'
+[0.970s] writing manifest file 'interface_protocol.egg-info/SOURCES.txt'
+[0.983s] [  1%] Built target ament_cmake_python_build_interface_protocol_egg
+[1.283s] [  1%] Built target interface_protocol__cpp
+[1.289s] [  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.289s] [  3%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_generator_c.dir/rosidl_generator_c/interface_protocol/msg/detail/heartbeat__functions.c.o[0m
+[1.290s] [  4%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_generator_c.dir/rosidl_generator_c/interface_protocol/msg/detail/joint_state__functions.c.o[0m
+[1.290s] [  4%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_generator_c.dir/rosidl_generator_c/interface_protocol/msg/detail/motion_state__functions.c.o[0m
+[1.290s] [  5%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.290s] [  6%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_generator_c.dir/rosidl_generator_c/interface_protocol/msg/detail/motor_command__functions.c.o[0m
+[1.290s] [  7%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_generator_c.dir/rosidl_generator_c/interface_protocol/msg/detail/motor_debug__functions.c.o[0m
+[1.290s] [  9%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_generator_c.dir/rosidl_generator_c/interface_protocol/msg/detail/joint_command__functions.c.o[0m
+[1.290s] [  8%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.290s] [  9%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_generator_c.dir/rosidl_generator_c/interface_protocol/msg/detail/body_vel_cmd__functions.c.o[0m
+[1.290s] [  9%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_generator_c.dir/rosidl_generator_c/interface_protocol/msg/detail/gamepad_keys__functions.c.o[0m
+[1.291s] [ 10%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_generator_c.dir/rosidl_generator_c/interface_protocol/msg/detail/imu_info__functions.c.o[0m
+[1.291s] [ 10%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_generator_c.dir/rosidl_generator_c/interface_protocol/msg/detail/tts__functions.c.o[0m
+[1.291s] [ 11%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_generator_c.dir/rosidl_generator_c/interface_protocol/srv/detail/enable_motor__functions.c.o[0m
+[1.291s] [ 12%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_generator_c.dir/rosidl_generator_c/interface_protocol/msg/detail/parallel_parser_type__functions.c.o[0m
+[1.292s] [ 13%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_generator_c.dir/rosidl_generator_c/interface_protocol/msg/detail/motor_state__functions.c.o[0m
+[1.359s] [ 14%] [32m[1mLinking C shared library libinterface_protocol__rosidl_generator_c.so[0m
+[1.384s] [ 14%] Built target interface_protocol__rosidl_generator_c
+[1.389s] [ 15%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[1.389s] [ 17%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.389s] [ 17%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.606s] [ 18%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_protocol/msg/heartbeat__type_support.cpp.o[0m
+[1.606s] [ 20%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_protocol/msg/body_vel_cmd__type_support.cpp.o[0m
+[1.606s] [ 20%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_protocol/msg/joint_command__type_support.cpp.o[0m
+[1.606s] [ 20%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_protocol/msg/motor_command__type_support.cpp.o[0m
+[1.606s] [ 20%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_protocol/msg/gamepad_keys__type_support.cpp.o[0m
+[1.606s] [ 21%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_protocol/msg/joint_state__type_support.cpp.o[0m
+[1.606s] [ 22%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_protocol/msg/motor_state__type_support.cpp.o[0m
+[1.606s] [ 23%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_protocol/msg/motion_state__type_support.cpp.o[0m
+[1.606s] [ 24%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_protocol/msg/imu_info__type_support.cpp.o[0m
+[1.606s] [ 26%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_protocol/msg/motor_debug__type_support.cpp.o[0m
+[1.606s] [ 26%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_protocol/msg/parallel_parser_type__type_support.cpp.o[0m
+[1.606s] [ 27%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_protocol/msg/tts__type_support.cpp.o[0m
+[1.606s] [ 27%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interface_protocol/srv/enable_motor__type_support.cpp.o[0m
+[1.626s] [ 28%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_protocol/msg/detail/body_vel_cmd__type_support.cpp.o[0m
+[1.626s] [ 29%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_protocol/msg/detail/gamepad_keys__type_support.cpp.o[0m
+[1.626s] [ 32%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_protocol/msg/detail/heartbeat__type_support.cpp.o[0m
+[1.626s] [ 32%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_protocol/msg/detail/imu_info__type_support.cpp.o[0m
+[1.626s] [ 32%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_protocol/msg/detail/joint_command__type_support.cpp.o[0m
+[1.626s] [ 32%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_protocol/msg/detail/motion_state__type_support.cpp.o[0m
+[1.627s] [ 33%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_protocol/msg/detail/motor_debug__type_support.cpp.o[0m
+[1.627s] [ 33%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_protocol/msg/detail/motor_state__type_support.cpp.o[0m
+[1.627s] [ 34%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_protocol/msg/detail/joint_state__type_support.cpp.o[0m
+[1.627s] [ 37%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_protocol/msg/detail/tts__type_support.cpp.o[0m
+[1.627s] [ 37%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_protocol/msg/detail/motor_command__type_support.cpp.o[0m
+[1.627s] [ 37%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_protocol/srv/detail/enable_motor__type_support.cpp.o[0m
+[1.628s] [ 38%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interface_protocol/msg/detail/parallel_parser_type__type_support.cpp.o[0m
+[1.705s] [ 40%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_protocol/msg/heartbeat__type_support.cpp.o[0m
+[1.705s] [ 40%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_protocol/msg/gamepad_keys__type_support.cpp.o[0m
+[1.705s] [ 40%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_protocol/msg/body_vel_cmd__type_support.cpp.o[0m
+[1.732s] [ 41%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_protocol/msg/imu_info__type_support.cpp.o[0m
+[1.736s] [ 42%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_protocol/msg/joint_state__type_support.cpp.o[0m
+[1.736s] [ 42%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_protocol/msg/joint_command__type_support.cpp.o[0m
+[1.760s] [ 43%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_protocol/msg/motion_state__type_support.cpp.o[0m
+[1.766s] [ 44%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_protocol/msg/motor_command__type_support.cpp.o[0m
+[1.766s] [ 45%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_protocol/msg/motor_debug__type_support.cpp.o[0m
+[1.775s] [ 46%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_protocol/msg/motor_state__type_support.cpp.o[0m
+[1.780s] [ 46%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_protocol/msg/parallel_parser_type__type_support.cpp.o[0m
+[1.783s] [ 47%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_protocol/msg/tts__type_support.cpp.o[0m
+[1.789s] [ 48%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_c.dir/rosidl_typesupport_c/interface_protocol/srv/enable_motor__type_support.cpp.o[0m
+[1.817s] [ 49%] [32m[1mLinking CXX shared library libinterface_protocol__rosidl_typesupport_c.so[0m
+[1.821s] [ 54%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_protocol/msg/detail/dds_fastrtps/imu_info__type_support.cpp.o[0m
+[1.822s] [ 54%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_protocol/msg/detail/dds_fastrtps/gamepad_keys__type_support.cpp.o[0m
+[1.822s] [ 54%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_protocol/msg/detail/dds_fastrtps/heartbeat__type_support.cpp.o[0m
+[1.822s] [ 54%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_protocol/msg/detail/dds_fastrtps/body_vel_cmd__type_support.cpp.o[0m
+[1.822s] [ 54%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_protocol/msg/detail/dds_fastrtps/motor_debug__type_support.cpp.o[0m
+[1.822s] [ 54%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_protocol/msg/detail/dds_fastrtps/motion_state__type_support.cpp.o[0m
+[1.822s] [ 55%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_protocol/msg/detail/dds_fastrtps/motor_command__type_support.cpp.o[0m
+[1.824s] [ 54%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_protocol/msg/detail/dds_fastrtps/joint_command__type_support.cpp.o[0m
+[1.824s] [ 56%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_protocol/msg/detail/dds_fastrtps/joint_state__type_support.cpp.o[0m
+[1.835s] [ 58%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_protocol/msg/detail/dds_fastrtps/motor_state__type_support.cpp.o[0m
+[1.839s] [ 59%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_protocol/msg/detail/dds_fastrtps/tts__type_support.cpp.o[0m
+[1.839s] [ 59%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_protocol/srv/detail/dds_fastrtps/enable_motor__type_support.cpp.o[0m
+[1.840s] [ 60%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interface_protocol/msg/detail/dds_fastrtps/parallel_parser_type__type_support.cpp.o[0m
+[1.857s] [ 61%] [32m[1mLinking CXX shared library libinterface_protocol__rosidl_typesupport_cpp.so[0m
+[1.858s] [ 61%] Built target interface_protocol__rosidl_typesupport_c
+[1.891s] [ 62%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_protocol/msg/detail/body_vel_cmd__type_support_c.cpp.o[0m
+[1.893s] [ 62%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_protocol/msg/detail/gamepad_keys__type_support_c.cpp.o[0m
+[1.893s] [ 62%] Built target interface_protocol__rosidl_typesupport_cpp
+[1.898s] [ 63%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_protocol/msg/detail/imu_info__type_support_c.cpp.o[0m
+[1.898s] [ 64%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_protocol/msg/detail/heartbeat__type_support_c.cpp.o[0m
+[1.926s] [ 65%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_protocol/msg/detail/joint_command__type_support_c.cpp.o[0m
+[1.932s] [ 66%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_protocol/msg/detail/joint_state__type_support_c.cpp.o[0m
+[1.934s] [ 66%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_protocol/msg/detail/motion_state__type_support_c.cpp.o[0m
+[1.952s] [ 67%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_protocol/msg/detail/motor_command__type_support_c.cpp.o[0m
+[1.955s] [ 69%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_protocol/msg/detail/motor_debug__type_support_c.cpp.o[0m
+[1.955s] [ 69%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_protocol/msg/detail/motor_state__type_support_c.cpp.o[0m
+[1.960s] [ 70%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_protocol/msg/detail/parallel_parser_type__type_support_c.cpp.o[0m
+[1.966s] [ 70%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_protocol/msg/detail/tts__type_support_c.cpp.o[0m
+[1.966s] [ 71%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_protocol/msg/detail/body_vel_cmd__type_support.c.o[0m
+[1.968s] [ 72%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_protocol/msg/detail/gamepad_keys__type_support.c.o[0m
+[1.973s] [ 72%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_protocol/msg/detail/heartbeat__type_support.c.o[0m
+[1.982s] [ 73%] [32mBuilding CXX object CMakeFiles/interface_protocol__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interface_protocol/srv/detail/enable_motor__type_support_c.cpp.o[0m
+[2.003s] [ 75%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_protocol/msg/detail/joint_command__type_support.c.o[0m
+[2.003s] [ 75%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_protocol/msg/detail/imu_info__type_support.c.o[0m
+[2.012s] [ 76%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_protocol/msg/detail/joint_state__type_support.c.o[0m
+[2.022s] [ 77%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_protocol/msg/detail/motion_state__type_support.c.o[0m
+[2.030s] [ 77%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_protocol/msg/detail/motor_command__type_support.c.o[0m
+[2.040s] [ 78%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_protocol/msg/detail/motor_debug__type_support.c.o[0m
+[2.050s] [ 79%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_protocol/msg/detail/motor_state__type_support.c.o[0m
+[2.061s] [ 80%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_protocol/msg/detail/parallel_parser_type__type_support.c.o[0m
+[2.065s] [ 81%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_protocol/msg/detail/tts__type_support.c.o[0m
+[2.083s] [ 82%] [32m[1mLinking CXX shared library libinterface_protocol__rosidl_typesupport_introspection_cpp.so[0m
+[2.088s] [ 82%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interface_protocol/srv/detail/enable_motor__type_support.c.o[0m
+[2.117s] [ 83%] [32m[1mLinking C shared library libinterface_protocol__rosidl_typesupport_introspection_c.so[0m
+[2.148s] [ 83%] Built target interface_protocol__rosidl_typesupport_introspection_cpp
+[2.153s] [ 83%] Built target interface_protocol__rosidl_typesupport_introspection_c
+[2.231s] [ 83%] [32m[1mLinking CXX shared library libinterface_protocol__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.268s] [ 83%] Built target interface_protocol__rosidl_typesupport_fastrtps_cpp
+[2.273s] [ 84%] [32m[1mLinking CXX shared library libinterface_protocol__rosidl_typesupport_fastrtps_c.so[0m
+[2.312s] [ 84%] Built target interface_protocol__rosidl_typesupport_fastrtps_c
+[2.323s] [ 84%] Built target interface_protocol
+[2.335s] [ 85%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.029s] [ 85%] Built target interface_protocol__py
+[3.042s] [ 87%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_generator_py.dir/rosidl_generator_py/interface_protocol/msg/_body_vel_cmd_s.c.o[0m
+[3.042s] [ 87%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_generator_py.dir/rosidl_generator_py/interface_protocol/msg/_imu_info_s.c.o[0m
+[3.042s] [ 88%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_generator_py.dir/rosidl_generator_py/interface_protocol/msg/_motor_debug_s.c.o[0m
+[3.042s] [ 89%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_generator_py.dir/rosidl_generator_py/interface_protocol/msg/_motor_state_s.c.o[0m
+[3.042s] [ 89%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_generator_py.dir/rosidl_generator_py/interface_protocol/msg/_tts_s.c.o[0m
+[3.042s] [ 90%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_generator_py.dir/rosidl_generator_py/interface_protocol/msg/_parallel_parser_type_s.c.o[0m
+[3.043s] [ 90%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_generator_py.dir/rosidl_generator_py/interface_protocol/msg/_gamepad_keys_s.c.o[0m
+[3.043s] [ 91%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_generator_py.dir/rosidl_generator_py/interface_protocol/msg/_joint_state_s.c.o[0m
+[3.043s] [ 92%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_generator_py.dir/rosidl_generator_py/interface_protocol/srv/_enable_motor_s.c.o[0m
+[3.043s] [ 93%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_generator_py.dir/rosidl_generator_py/interface_protocol/msg/_heartbeat_s.c.o[0m
+[3.043s] [ 94%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_generator_py.dir/rosidl_generator_py/interface_protocol/msg/_joint_command_s.c.o[0m
+[3.043s] [ 95%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_generator_py.dir/rosidl_generator_py/interface_protocol/msg/_motion_state_s.c.o[0m
+[3.043s] [ 95%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_generator_py.dir/rosidl_generator_py/interface_protocol/msg/_motor_command_s.c.o[0m
+[3.181s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/interface_protocol/libinterface_protocol__rosidl_generator_py.so[0m
+[3.206s] [ 96%] Built target interface_protocol__rosidl_generator_py
+[3.217s] [ 97%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interface_protocol/_interface_protocol_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.217s] [ 98%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interface_protocol/_interface_protocol_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.218s] [ 99%] [32mBuilding C object CMakeFiles/interface_protocol__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interface_protocol/_interface_protocol_s.ep.rosidl_typesupport_c.c.o[0m
+[3.331s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/interface_protocol/interface_protocol_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.331s] [ 99%] [32m[1mLinking C shared library rosidl_generator_py/interface_protocol/interface_protocol_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.334s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interface_protocol/interface_protocol_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.355s] [100%] Built target interface_protocol__rosidl_typesupport_introspection_c__pyext
+[3.355s] [100%] Built target interface_protocol__rosidl_typesupport_c__pyext
+[3.355s] [100%] Built target interface_protocol__rosidl_typesupport_fastrtps_c__pyext
+[3.362s] Invoked command in '/home/ubuntu/code/engineai_ros2_workspace/build/interface_protocol' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/code/engineai_ros2_workspace/build/interface_protocol -- -j32 -l32
+[3.366s] Invoking command in '/home/ubuntu/code/engineai_ros2_workspace/build/interface_protocol': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/code/engineai_ros2_workspace/build/interface_protocol
+[3.371s] -- Install configuration: "Release"
+[3.372s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/ament_index/resource_index/rosidl_interfaces/interface_protocol
+[3.372s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol
+[3.372s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/srv
+[3.372s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/srv/enable_motor.h
+[3.372s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/srv/detail
+[3.372s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/srv/detail/enable_motor__functions.c
+[3.372s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/srv/detail/enable_motor__struct.h
+[3.372s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/srv/detail/enable_motor__type_support.h
+[3.372s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/srv/detail/enable_motor__functions.h
+[3.372s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg
+[3.372s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/heartbeat.h
+[3.372s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/imu_info.h
+[3.372s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/rosidl_generator_c__visibility_control.h
+[3.372s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/gamepad_keys.h
+[3.372s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/parallel_parser_type.h
+[3.372s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/tts.h
+[3.372s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/motor_debug.h
+[3.372s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/joint_state.h
+[3.372s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/motor_command.h
+[3.372s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/motor_state.h
+[3.372s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/motion_state.h
+[3.372s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/body_vel_cmd.h
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/joint_command.h
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/joint_state__type_support.h
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/joint_command__struct.h
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/parallel_parser_type__struct.h
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/tts__type_support.h
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_command__functions.c
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/heartbeat__functions.h
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_state__functions.c
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/body_vel_cmd__functions.h
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motion_state__functions.h
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_state__type_support.h
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/joint_command__type_support.h
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/body_vel_cmd__functions.c
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/gamepad_keys__functions.c
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_state__functions.h
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_debug__functions.h
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/imu_info__functions.h
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/imu_info__type_support.h
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motion_state__functions.c
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/parallel_parser_type__functions.h
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/joint_command__functions.h
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/imu_info__functions.c
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/joint_state__functions.h
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/parallel_parser_type__functions.c
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/body_vel_cmd__type_support.h
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/body_vel_cmd__struct.h
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/tts__functions.h
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_state__struct.h
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_debug__functions.c
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_command__struct.h
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/gamepad_keys__struct.h
+[3.373s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_command__type_support.h
+[3.374s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/heartbeat__functions.c
+[3.374s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_command__functions.h
+[3.374s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_debug__type_support.h
+[3.374s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/heartbeat__struct.h
+[3.374s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/joint_state__functions.c
+[3.374s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/gamepad_keys__type_support.h
+[3.374s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/joint_state__struct.h
+[3.374s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motion_state__type_support.h
+[3.374s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/joint_command__functions.c
+[3.374s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/heartbeat__type_support.h
+[3.374s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_debug__struct.h
+[3.374s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/gamepad_keys__functions.h
+[3.374s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/tts__functions.c
+[3.374s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motion_state__struct.h
+[3.374s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/parallel_parser_type__type_support.h
+[3.374s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/tts__struct.h
+[3.374s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/imu_info__struct.h
+[3.374s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/environment/library_path.sh
+[3.374s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/environment/library_path.dsv
+[3.374s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/lib/libinterface_protocol__rosidl_generator_c.so
+[3.374s] -- Set runtime path of "/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/lib/libinterface_protocol__rosidl_generator_c.so" to ""
+[3.374s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol
+[3.374s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/srv
+[3.374s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/srv/detail
+[3.374s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/srv/detail/enable_motor__rosidl_typesupport_fastrtps_c.h
+[3.374s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg
+[3.374s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.374s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail
+[3.374s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/parallel_parser_type__rosidl_typesupport_fastrtps_c.h
+[3.374s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/body_vel_cmd__rosidl_typesupport_fastrtps_c.h
+[3.374s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/heartbeat__rosidl_typesupport_fastrtps_c.h
+[3.375s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_debug__rosidl_typesupport_fastrtps_c.h
+[3.375s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_state__rosidl_typesupport_fastrtps_c.h
+[3.375s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_command__rosidl_typesupport_fastrtps_c.h
+[3.375s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/tts__rosidl_typesupport_fastrtps_c.h
+[3.375s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/joint_state__rosidl_typesupport_fastrtps_c.h
+[3.375s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/gamepad_keys__rosidl_typesupport_fastrtps_c.h
+[3.375s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/imu_info__rosidl_typesupport_fastrtps_c.h
+[3.375s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/joint_command__rosidl_typesupport_fastrtps_c.h
+[3.375s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motion_state__rosidl_typesupport_fastrtps_c.h
+[3.375s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/lib/libinterface_protocol__rosidl_typesupport_fastrtps_c.so
+[3.375s] -- Set runtime path of "/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/lib/libinterface_protocol__rosidl_typesupport_fastrtps_c.so" to ""
+[3.375s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol
+[3.375s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/srv
+[3.375s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/srv/detail
+[3.375s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/srv/detail/enable_motor__rosidl_typesupport_introspection_c.h
+[3.375s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/srv/detail/enable_motor__type_support.c
+[3.375s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg
+[3.375s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.375s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail
+[3.375s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/imu_info__rosidl_typesupport_introspection_c.h
+[3.375s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/parallel_parser_type__rosidl_typesupport_introspection_c.h
+[3.375s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motion_state__rosidl_typesupport_introspection_c.h
+[3.375s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_state__rosidl_typesupport_introspection_c.h
+[3.375s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/gamepad_keys__type_support.c
+[3.375s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/joint_state__rosidl_typesupport_introspection_c.h
+[3.375s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/heartbeat__type_support.c
+[3.375s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/imu_info__type_support.c
+[3.375s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_command__type_support.c
+[3.375s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/joint_state__type_support.c
+[3.375s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/tts__rosidl_typesupport_introspection_c.h
+[3.375s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_state__type_support.c
+[3.375s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/gamepad_keys__rosidl_typesupport_introspection_c.h
+[3.375s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/joint_command__type_support.c
+[3.376s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/joint_command__rosidl_typesupport_introspection_c.h
+[3.376s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_debug__type_support.c
+[3.376s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/body_vel_cmd__rosidl_typesupport_introspection_c.h
+[3.376s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/body_vel_cmd__type_support.c
+[3.376s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_command__rosidl_typesupport_introspection_c.h
+[3.376s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motion_state__type_support.c
+[3.376s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_debug__rosidl_typesupport_introspection_c.h
+[3.376s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/parallel_parser_type__type_support.c
+[3.376s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/tts__type_support.c
+[3.376s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/heartbeat__rosidl_typesupport_introspection_c.h
+[3.376s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/lib/libinterface_protocol__rosidl_typesupport_introspection_c.so
+[3.376s] -- Set runtime path of "/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/lib/libinterface_protocol__rosidl_typesupport_introspection_c.so" to ""
+[3.376s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/lib/libinterface_protocol__rosidl_typesupport_c.so
+[3.376s] -- Set runtime path of "/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/lib/libinterface_protocol__rosidl_typesupport_c.so" to ""
+[3.376s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol
+[3.376s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/srv
+[3.376s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/srv/enable_motor.hpp
+[3.376s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/srv/detail
+[3.376s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/srv/detail/enable_motor__builder.hpp
+[3.376s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/srv/detail/enable_motor__struct.hpp
+[3.376s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/srv/detail/enable_motor__type_support.hpp
+[3.376s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/srv/detail/enable_motor__traits.hpp
+[3.376s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg
+[3.376s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/gamepad_keys.hpp
+[3.376s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/heartbeat.hpp
+[3.376s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/motor_state.hpp
+[3.376s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/body_vel_cmd.hpp
+[3.376s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/joint_command.hpp
+[3.376s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.376s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/joint_state.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/parallel_parser_type.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/motion_state.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/tts.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/motor_command.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/imu_info.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/motor_debug.hpp
+[3.377s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_state__struct.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/body_vel_cmd__builder.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/joint_command__traits.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motion_state__builder.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/gamepad_keys__type_support.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motion_state__traits.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/tts__type_support.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/heartbeat__type_support.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/joint_command__struct.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_debug__struct.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_state__type_support.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/imu_info__traits.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/imu_info__builder.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/tts__struct.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/joint_state__builder.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/parallel_parser_type__traits.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/heartbeat__traits.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/joint_state__type_support.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/body_vel_cmd__struct.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/imu_info__struct.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/heartbeat__builder.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/parallel_parser_type__struct.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motion_state__type_support.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/heartbeat__struct.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_state__builder.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_state__traits.hpp
+[3.377s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/gamepad_keys__struct.hpp
+[3.378s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_debug__builder.hpp
+[3.378s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_command__builder.hpp
+[3.378s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/joint_state__traits.hpp
+[3.378s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/imu_info__type_support.hpp
+[3.378s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/tts__traits.hpp
+[3.378s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/body_vel_cmd__type_support.hpp
+[3.378s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/tts__builder.hpp
+[3.378s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/body_vel_cmd__traits.hpp
+[3.378s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_debug__traits.hpp
+[3.378s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/joint_command__type_support.hpp
+[3.378s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/gamepad_keys__builder.hpp
+[3.378s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_command__struct.hpp
+[3.378s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/parallel_parser_type__type_support.hpp
+[3.378s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_command__type_support.hpp
+[3.378s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/joint_command__builder.hpp
+[3.378s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/joint_state__struct.hpp
+[3.378s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_debug__type_support.hpp
+[3.378s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motion_state__struct.hpp
+[3.378s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_command__traits.hpp
+[3.378s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/gamepad_keys__traits.hpp
+[3.378s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/parallel_parser_type__builder.hpp
+[3.378s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol
+[3.378s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/srv
+[3.378s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/srv/detail
+[3.378s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/srv/detail/enable_motor__rosidl_typesupport_fastrtps_cpp.hpp
+[3.378s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/srv/detail/dds_fastrtps
+[3.378s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg
+[3.378s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.378s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail
+[3.378s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/parallel_parser_type__rosidl_typesupport_fastrtps_cpp.hpp
+[3.378s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_debug__rosidl_typesupport_fastrtps_cpp.hpp
+[3.378s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motion_state__rosidl_typesupport_fastrtps_cpp.hpp
+[3.378s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/gamepad_keys__rosidl_typesupport_fastrtps_cpp.hpp
+[3.378s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_state__rosidl_typesupport_fastrtps_cpp.hpp
+[3.378s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/tts__rosidl_typesupport_fastrtps_cpp.hpp
+[3.379s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/joint_command__rosidl_typesupport_fastrtps_cpp.hpp
+[3.379s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/heartbeat__rosidl_typesupport_fastrtps_cpp.hpp
+[3.379s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_command__rosidl_typesupport_fastrtps_cpp.hpp
+[3.379s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+[3.379s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/body_vel_cmd__rosidl_typesupport_fastrtps_cpp.hpp
+[3.379s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/imu_info__rosidl_typesupport_fastrtps_cpp.hpp
+[3.379s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/dds_fastrtps
+[3.379s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/lib/libinterface_protocol__rosidl_typesupport_fastrtps_cpp.so
+[3.379s] -- Set runtime path of "/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/lib/libinterface_protocol__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.379s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol
+[3.379s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/srv
+[3.379s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/srv/detail
+[3.379s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/srv/detail/enable_motor__rosidl_typesupport_introspection_cpp.hpp
+[3.379s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/srv/detail/enable_motor__type_support.cpp
+[3.379s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg
+[3.379s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail
+[3.379s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/body_vel_cmd__type_support.cpp
+[3.379s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motion_state__type_support.cpp
+[3.379s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/joint_command__rosidl_typesupport_introspection_cpp.hpp
+[3.379s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/gamepad_keys__rosidl_typesupport_introspection_cpp.hpp
+[3.379s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/parallel_parser_type__rosidl_typesupport_introspection_cpp.hpp
+[3.379s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/gamepad_keys__type_support.cpp
+[3.379s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_state__rosidl_typesupport_introspection_cpp.hpp
+[3.379s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/imu_info__rosidl_typesupport_introspection_cpp.hpp
+[3.379s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/body_vel_cmd__rosidl_typesupport_introspection_cpp.hpp
+[3.379s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_command__rosidl_typesupport_introspection_cpp.hpp
+[3.379s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/joint_state__rosidl_typesupport_introspection_cpp.hpp
+[3.379s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/heartbeat__type_support.cpp
+[3.379s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_command__type_support.cpp
+[3.379s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_state__type_support.cpp
+[3.379s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/tts__rosidl_typesupport_introspection_cpp.hpp
+[3.379s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/imu_info__type_support.cpp
+[3.380s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_debug__type_support.cpp
+[3.380s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/joint_state__type_support.cpp
+[3.380s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motor_debug__rosidl_typesupport_introspection_cpp.hpp
+[3.380s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/heartbeat__rosidl_typesupport_introspection_cpp.hpp
+[3.380s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/joint_command__type_support.cpp
+[3.380s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/tts__type_support.cpp
+[3.380s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/parallel_parser_type__type_support.cpp
+[3.380s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/include/interface_protocol/interface_protocol/msg/detail/motion_state__rosidl_typesupport_introspection_cpp.hpp
+[3.380s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/lib/libinterface_protocol__rosidl_typesupport_introspection_cpp.so
+[3.380s] -- Set runtime path of "/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/lib/libinterface_protocol__rosidl_typesupport_introspection_cpp.so" to ""
+[3.380s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/lib/libinterface_protocol__rosidl_typesupport_cpp.so
+[3.380s] -- Set runtime path of "/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/lib/libinterface_protocol__rosidl_typesupport_cpp.so" to ""
+[3.380s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/environment/pythonpath.sh
+[3.380s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/environment/pythonpath.dsv
+[3.380s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol-0.0.1-py3.10.egg-info
+[3.380s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol-0.0.1-py3.10.egg-info/top_level.txt
+[3.380s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol-0.0.1-py3.10.egg-info/dependency_links.txt
+[3.380s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol-0.0.1-py3.10.egg-info/SOURCES.txt
+[3.380s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol-0.0.1-py3.10.egg-info/PKG-INFO
+[3.380s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol
+[3.380s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/interface_protocol_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.380s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/srv
+[3.380s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/srv/_enable_motor.py
+[3.380s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/srv/__init__.py
+[3.381s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/srv/_enable_motor_s.c
+[3.381s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/_interface_protocol_s.ep.rosidl_typesupport_introspection_c.c
+[3.381s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg
+[3.381s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_parallel_parser_type.py
+[3.381s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_motor_debug.py
+[3.381s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_heartbeat_s.c
+[3.381s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_motor_command.py
+[3.381s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_joint_command.py
+[3.381s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_heartbeat.py
+[3.381s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_gamepad_keys_s.c
+[3.381s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_tts.py
+[3.381s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_motion_state.py
+[3.381s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_imu_info_s.c
+[3.381s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/__init__.py
+[3.381s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_tts_s.c
+[3.381s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_body_vel_cmd.py
+[3.381s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_gamepad_keys.py
+[3.381s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_motion_state_s.c
+[3.381s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_motor_command_s.c
+[3.381s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_joint_command_s.c
+[3.381s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_motor_state.py
+[3.381s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_joint_state_s.c
+[3.381s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_parallel_parser_type_s.c
+[3.381s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_imu_info.py
+[3.381s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_motor_debug_s.c
+[3.381s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_joint_state.py
+[3.381s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_motor_state_s.c
+[3.381s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_body_vel_cmd_s.c
+[3.381s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/libinterface_protocol__rosidl_generator_py.so
+[3.381s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/__init__.py
+[3.381s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/_interface_protocol_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.382s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/_interface_protocol_s.ep.rosidl_typesupport_c.c
+[3.382s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/interface_protocol_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.382s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/interface_protocol_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.406s] Listing '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol'...
+[3.406s] Compiling '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/__init__.py'...
+[3.406s] Listing '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg'...
+[3.406s] Compiling '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/__init__.py'...
+[3.406s] Compiling '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_body_vel_cmd.py'...
+[3.406s] Compiling '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_gamepad_keys.py'...
+[3.406s] Compiling '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_heartbeat.py'...
+[3.406s] Compiling '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_imu_info.py'...
+[3.406s] Compiling '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_joint_command.py'...
+[3.406s] Compiling '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_joint_state.py'...
+[3.406s] Compiling '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_motion_state.py'...
+[3.407s] Compiling '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_motor_command.py'...
+[3.407s] Compiling '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_motor_debug.py'...
+[3.407s] Compiling '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_motor_state.py'...
+[3.407s] Compiling '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_parallel_parser_type.py'...
+[3.407s] Compiling '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/msg/_tts.py'...
+[3.407s] Listing '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/srv'...
+[3.407s] Compiling '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/srv/__init__.py'...
+[3.407s] Compiling '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/srv/_enable_motor.py'...
+[3.408s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/interface_protocol_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[3.408s] -- Set runtime path of "/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/interface_protocol_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.408s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/interface_protocol_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[3.408s] -- Set runtime path of "/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/interface_protocol_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.409s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/interface_protocol_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[3.409s] -- Set runtime path of "/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/local/lib/python3.10/dist-packages/interface_protocol/interface_protocol_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[3.409s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/lib/libinterface_protocol__rosidl_generator_py.so
+[3.409s] -- Set runtime path of "/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/lib/libinterface_protocol__rosidl_generator_py.so" to ""
+[3.409s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/msg/BodyVelCmd.idl
+[3.409s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/msg/GamepadKeys.idl
+[3.409s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/msg/Heartbeat.idl
+[3.409s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/msg/ImuInfo.idl
+[3.409s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/msg/JointCommand.idl
+[3.409s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/msg/JointState.idl
+[3.409s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/msg/MotionState.idl
+[3.409s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/msg/MotorCommand.idl
+[3.409s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/msg/MotorDebug.idl
+[3.409s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/msg/MotorState.idl
+[3.409s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/msg/ParallelParserType.idl
+[3.409s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/msg/Tts.idl
+[3.409s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/srv/EnableMotor.idl
+[3.409s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/msg/BodyVelCmd.msg
+[3.409s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/msg/GamepadKeys.msg
+[3.409s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/msg/Heartbeat.msg
+[3.409s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/msg/ImuInfo.msg
+[3.410s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/msg/JointCommand.msg
+[3.410s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/msg/JointState.msg
+[3.410s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/msg/MotionState.msg
+[3.410s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/msg/MotorCommand.msg
+[3.410s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/msg/MotorDebug.msg
+[3.410s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/msg/MotorState.msg
+[3.410s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/msg/ParallelParserType.msg
+[3.410s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/msg/Tts.msg
+[3.410s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/srv/EnableMotor.srv
+[3.410s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/srv/EnableMotor_Request.msg
+[3.410s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/srv/EnableMotor_Response.msg
+[3.410s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/ament_index/resource_index/package_run_dependencies/interface_protocol
+[3.410s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/ament_index/resource_index/parent_prefix_path/interface_protocol
+[3.410s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/environment/ament_prefix_path.sh
+[3.410s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/environment/ament_prefix_path.dsv
+[3.410s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/environment/path.sh
+[3.410s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/environment/path.dsv
+[3.410s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/local_setup.bash
+[3.410s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/local_setup.sh
+[3.410s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/local_setup.zsh
+[3.410s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/local_setup.dsv
+[3.410s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/package.dsv
+[3.410s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/ament_index/resource_index/packages/interface_protocol
+[3.410s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/cmake/export_interface_protocol__rosidl_generator_cExport.cmake
+[3.411s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/cmake/export_interface_protocol__rosidl_generator_cExport-release.cmake
+[3.411s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/cmake/export_interface_protocol__rosidl_typesupport_fastrtps_cExport.cmake
+[3.411s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/cmake/export_interface_protocol__rosidl_typesupport_fastrtps_cExport-release.cmake
+[3.411s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/cmake/interface_protocol__rosidl_typesupport_introspection_cExport.cmake
+[3.411s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/cmake/interface_protocol__rosidl_typesupport_introspection_cExport-release.cmake
+[3.411s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/cmake/interface_protocol__rosidl_typesupport_cExport.cmake
+[3.411s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/cmake/interface_protocol__rosidl_typesupport_cExport-release.cmake
+[3.411s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/cmake/export_interface_protocol__rosidl_generator_cppExport.cmake
+[3.411s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/cmake/export_interface_protocol__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.411s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/cmake/export_interface_protocol__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[3.411s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/cmake/interface_protocol__rosidl_typesupport_introspection_cppExport.cmake
+[3.411s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/cmake/interface_protocol__rosidl_typesupport_introspection_cppExport-release.cmake
+[3.411s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/cmake/interface_protocol__rosidl_typesupport_cppExport.cmake
+[3.411s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/cmake/interface_protocol__rosidl_typesupport_cppExport-release.cmake
+[3.411s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/cmake/export_interface_protocol__rosidl_generator_pyExport.cmake
+[3.411s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/cmake/export_interface_protocol__rosidl_generator_pyExport-release.cmake
+[3.411s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/cmake/rosidl_cmake-extras.cmake
+[3.411s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.411s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.411s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/cmake/ament_cmake_export_libraries-extras.cmake
+[3.411s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/cmake/ament_cmake_export_targets-extras.cmake
+[3.411s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.411s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.412s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/cmake/interface_protocolConfig.cmake
+[3.412s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/cmake/interface_protocolConfig-version.cmake
+[3.412s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/package.xml
+[3.413s] Invoked command in '/home/ubuntu/code/engineai_ros2_workspace/build/interface_protocol' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/code/engineai_ros2_workspace/build/interface_protocol

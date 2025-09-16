@@ -1,0 +1,38 @@
+[0.006s] Invoking command in '/home/ubuntu/code/engineai_ros2_workspace/build/interface_example': CMAKE_PREFIX_PATH=/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol:/home/ubuntu/code/engineai_ros2_workspace/install/mujoco_simulator:/home/ubuntu/code/engineai_ros2_workspace/install/interface_example:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ubuntu/code/engineai_ros2_workspace/build/interface_example -- -j32 -l32
+[0.039s] [ 25%] Built target hold_joint_status
+[0.040s] [ 50%] Built target joint_test_example
+[0.043s] [100%] Built target rl_basic_example
+[0.048s] Invoked command in '/home/ubuntu/code/engineai_ros2_workspace/build/interface_example' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol:/home/ubuntu/code/engineai_ros2_workspace/install/mujoco_simulator:/home/ubuntu/code/engineai_ros2_workspace/install/interface_example:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ubuntu/code/engineai_ros2_workspace/build/interface_example -- -j32 -l32
+[0.049s] Invoking command in '/home/ubuntu/code/engineai_ros2_workspace/build/interface_example': CMAKE_PREFIX_PATH=/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol:/home/ubuntu/code/engineai_ros2_workspace/install/mujoco_simulator:/home/ubuntu/code/engineai_ros2_workspace/install/interface_example:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ubuntu/code/engineai_ros2_workspace/build/interface_example
+[0.053s] -- Install configuration: "Release"
+[0.053s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/lib/interface_example/hold_joint_status
+[0.053s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/lib/interface_example/joint_test_example
+[0.053s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/lib/interface_example/rl_basic_example
+[0.053s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/launch
+[0.053s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/launch/rl_basic_example.launch.py
+[0.053s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/config
+[0.053s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/config/pm01
+[0.053s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/config/pm01/rl_basic
+[0.053s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/config/pm01/rl_basic/basic
+[0.054s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/config/pm01/rl_basic/basic/rl_basic_param.yaml
+[0.054s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/config/pm01/rl_basic/basic/policies
+[0.054s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/config/pm01/rl_basic/basic/policies/pm01_v2_rough_ppo_42obs.mnn
+[0.054s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/config/pm01/motor.yaml
+[0.054s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/config/pm01/pd_joint_test.yaml
+[0.054s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/config/pm01/joint_test.yaml
+[0.054s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/ament_index/resource_index/package_run_dependencies/interface_example
+[0.054s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/ament_index/resource_index/parent_prefix_path/interface_example
+[0.054s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/environment/ament_prefix_path.sh
+[0.054s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/environment/ament_prefix_path.dsv
+[0.054s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/environment/path.sh
+[0.054s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/environment/path.dsv
+[0.054s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/local_setup.bash
+[0.054s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/local_setup.sh
+[0.054s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/local_setup.zsh
+[0.054s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/local_setup.dsv
+[0.054s] -- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/package.dsv
+[0.054s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/ament_index/resource_index/packages/interface_example
+[0.055s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/cmake/interface_exampleConfig.cmake
+[0.055s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/cmake/interface_exampleConfig-version.cmake
+[0.055s] -- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/package.xml
+[0.056s] Invoked command in '/home/ubuntu/code/engineai_ros2_workspace/build/interface_example' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol:/home/ubuntu/code/engineai_ros2_workspace/install/mujoco_simulator:/home/ubuntu/code/engineai_ros2_workspace/install/interface_example:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ubuntu/code/engineai_ros2_workspace/build/interface_example

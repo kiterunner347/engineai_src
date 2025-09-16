@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "interface_protocol__py",
+		"source" : "/home/ubuntu/code/engineai_ros2_workspace/build/interface_protocol/interface_protocol__py"
+	}
+}

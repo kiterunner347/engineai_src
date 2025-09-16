@@ -1,0 +1,304 @@
+[0.051s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release', '--build-base', 'build', '--install-base', 'install', '--packages-select', 'interface_protocol', 'rdk_framework', 'interface_example']
+[0.051s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='/home/ubuntu/code/engineai_ros2_workspace/build', install_base='/home/ubuntu/code/engineai_ros2_workspace/install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=32, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['interface_protocol', 'rdk_framework', 'interface_example'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x791d8674abc0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x791d8674a710>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x791d8674a710>>, mixin_verb=('build',))
+[0.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.118s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.118s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/code/engineai_ros2_workspace'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.118s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ignore', 'ignore_ament_install']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ignore_ament_install'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_pkg']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_pkg'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['colcon_meta']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'colcon_meta'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['ros']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'ros'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['cmake', 'python']
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'cmake'
+[0.123s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extensions ['python_setup_py']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(docs) by extension 'python_setup_py'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extension 'ignore_ament_install'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extensions ['colcon_pkg']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extension 'colcon_pkg'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extensions ['colcon_meta']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extension 'colcon_meta'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extensions ['ros']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extension 'ros'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extensions ['cmake', 'python']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extension 'cmake'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extension 'python'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extensions ['python_setup_py']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(docs/images) by extension 'python_setup_py'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_example) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_example) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_example) by extension 'ignore_ament_install'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_example) by extensions ['colcon_pkg']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_example) by extension 'colcon_pkg'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_example) by extensions ['colcon_meta']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_example) by extension 'colcon_meta'
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_example) by extensions ['ros']
+[0.125s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_example) by extension 'ros'
+[0.126s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interface_example' with type 'ros.ament_cmake' and name 'interface_example'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_protocol) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_protocol) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_protocol) by extension 'ignore_ament_install'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_protocol) by extensions ['colcon_pkg']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_protocol) by extension 'colcon_pkg'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_protocol) by extensions ['colcon_meta']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_protocol) by extension 'colcon_meta'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_protocol) by extensions ['ros']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/interface_protocol) by extension 'ros'
+[0.126s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interface_protocol' with type 'ros.ament_cmake' and name 'interface_protocol'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extensions ['ignore', 'ignore_ament_install']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'ignore'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'ignore_ament_install'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extensions ['colcon_pkg']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'colcon_pkg'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extensions ['colcon_meta']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'colcon_meta'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extensions ['ros']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'ros'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extensions ['cmake', 'python']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'cmake'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'python'
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extensions ['python_setup_py']
+[0.126s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation) by extension 'python_setup_py'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/mujoco) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/mujoco) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/mujoco) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/mujoco) by extensions ['colcon_pkg']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/mujoco) by extension 'colcon_pkg'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/mujoco) by extensions ['colcon_meta']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/mujoco) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/mujoco) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulation/mujoco) by extension 'ros'
+[0.127s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simulation/mujoco' with type 'ros.ament_cmake' and name 'mujoco_simulator'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party) by extensions ['ignore', 'ignore_ament_install']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party) by extension 'ignore'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party) by extension 'ignore_ament_install'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party) by extensions ['colcon_pkg']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party) by extension 'colcon_pkg'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party) by extensions ['colcon_meta']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party) by extension 'colcon_meta'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party) by extensions ['ros']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party) by extension 'ros'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party) by extensions ['cmake', 'python']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party) by extension 'cmake'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party) by extension 'python'
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party) by extensions ['python_setup_py']
+[0.127s] Level 1:colcon.colcon_core.package_identification:_identify(src/third_party) by extension 'python_setup_py'
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.127s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.127s] WARNING:colcon.colcon_core.package_selection:ignoring unknown package 'rdk_framework' in --packages-select
+[0.145s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'mujoco_simulator' in 'src/simulation/mujoco'
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.147s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/ubuntu/code/engineai_ros2_workspace/install
+[0.148s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 295 installed packages in /opt/ros/humble
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.176s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'interface_protocol' is in: /home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding interface_protocol
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'interface_protocol' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'interface_protocol' build argument 'cmake_target' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'interface_protocol' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'interface_protocol' build argument 'cmake_clean_cache' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'interface_protocol' build argument 'cmake_clean_first' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'interface_protocol' build argument 'cmake_force_configure' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'interface_protocol' build argument 'ament_cmake_args' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'interface_protocol' build argument 'catkin_cmake_args' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'interface_protocol' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.176s] DEBUG:colcon.colcon_core.verb:Building package 'interface_protocol' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/code/engineai_ros2_workspace/build/interface_protocol', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol', 'merge_install': False, 'path': '/home/ubuntu/code/engineai_ros2_workspace/src/interface_protocol', 'symlink_install': False, 'test_result_base': None}
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'interface_example' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'interface_example' build argument 'cmake_target' from command line to 'None'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'interface_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'interface_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'interface_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.176s] Level 5:colcon.colcon_core.verb:set package 'interface_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'interface_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'interface_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.177s] Level 5:colcon.colcon_core.verb:set package 'interface_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.177s] DEBUG:colcon.colcon_core.verb:Building package 'interface_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/code/engineai_ros2_workspace/build/interface_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/code/engineai_ros2_workspace/install/interface_example', 'merge_install': False, 'path': '/home/ubuntu/code/engineai_ros2_workspace/src/interface_example', 'symlink_install': False, 'test_result_base': None}
+[0.177s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.177s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.177s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/code/engineai_ros2_workspace/src/interface_protocol' with build type 'ament_cmake'
+[0.177s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/code/engineai_ros2_workspace/src/interface_protocol'
+[0.178s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.179s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.179s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.185s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/code/engineai_ros2_workspace/build/interface_protocol': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ubuntu/code/engineai_ros2_workspace/build/interface_protocol -- -j32 -l32
+[0.356s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/code/engineai_ros2_workspace/build/interface_protocol' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ubuntu/code/engineai_ros2_workspace/build/interface_protocol -- -j32 -l32
+[0.361s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/code/engineai_ros2_workspace/build/interface_protocol': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ubuntu/code/engineai_ros2_workspace/build/interface_protocol
+[0.393s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interface_protocol)
+[0.394s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/code/engineai_ros2_workspace/build/interface_protocol' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ubuntu/code/engineai_ros2_workspace/build/interface_protocol
+[0.395s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol' for CMake module files
+[0.396s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol' for CMake config files
+[0.397s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface_protocol', 'cmake_prefix_path')
+[0.397s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/hook/cmake_prefix_path.ps1'
+[0.397s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/hook/cmake_prefix_path.dsv'
+[0.398s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/hook/cmake_prefix_path.sh'
+[0.398s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/lib'
+[0.399s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface_protocol', 'ld_library_path_lib')
+[0.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/hook/ld_library_path_lib.ps1'
+[0.399s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/hook/ld_library_path_lib.dsv'
+[0.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/hook/ld_library_path_lib.sh'
+[0.400s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/bin'
+[0.400s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/lib/pkgconfig/interface_protocol.pc'
+[0.400s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/lib/python3.10/site-packages'
+[0.400s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/bin'
+[0.400s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/package.ps1'
+[0.401s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/package.dsv'
+[0.401s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/package.sh'
+[0.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/package.bash'
+[0.402s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/package.zsh'
+[0.403s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/colcon-core/packages/interface_protocol)
+[0.403s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interface_protocol)
+[0.403s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol' for CMake module files
+[0.404s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol' for CMake config files
+[0.404s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface_protocol', 'cmake_prefix_path')
+[0.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/hook/cmake_prefix_path.ps1'
+[0.405s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/hook/cmake_prefix_path.dsv'
+[0.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/hook/cmake_prefix_path.sh'
+[0.405s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/lib'
+[0.405s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface_protocol', 'ld_library_path_lib')
+[0.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/hook/ld_library_path_lib.ps1'
+[0.405s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/hook/ld_library_path_lib.dsv'
+[0.405s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/hook/ld_library_path_lib.sh'
+[0.406s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/bin'
+[0.406s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/lib/pkgconfig/interface_protocol.pc'
+[0.406s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/lib/python3.10/site-packages'
+[0.406s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/bin'
+[0.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/package.ps1'
+[0.406s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/package.dsv'
+[0.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/package.sh'
+[0.406s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/package.bash'
+[0.407s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/interface_protocol/package.zsh'
+[0.407s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol/share/colcon-core/packages/interface_protocol)
+[0.407s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/code/engineai_ros2_workspace/src/interface_example' with build type 'ament_cmake'
+[0.407s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/code/engineai_ros2_workspace/src/interface_example'
+[0.407s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.407s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/code/engineai_ros2_workspace/build/interface_example': CMAKE_PREFIX_PATH=/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol:/home/ubuntu/code/engineai_ros2_workspace/install/mujoco_simulator:/home/ubuntu/code/engineai_ros2_workspace/install/interface_example:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ubuntu/code/engineai_ros2_workspace/build/interface_example -- -j32 -l32
+[0.454s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/code/engineai_ros2_workspace/build/interface_example' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol:/home/ubuntu/code/engineai_ros2_workspace/install/mujoco_simulator:/home/ubuntu/code/engineai_ros2_workspace/install/interface_example:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/ubuntu/code/engineai_ros2_workspace/build/interface_example -- -j32 -l32
+[0.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/code/engineai_ros2_workspace/build/interface_example': CMAKE_PREFIX_PATH=/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol:/home/ubuntu/code/engineai_ros2_workspace/install/mujoco_simulator:/home/ubuntu/code/engineai_ros2_workspace/install/interface_example:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ubuntu/code/engineai_ros2_workspace/build/interface_example
+[0.462s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interface_example)
+[0.462s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/code/engineai_ros2_workspace/install/interface_example' for CMake module files
+[0.462s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/code/engineai_ros2_workspace/build/interface_example' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/code/engineai_ros2_workspace/install/interface_protocol:/home/ubuntu/code/engineai_ros2_workspace/install/mujoco_simulator:/home/ubuntu/code/engineai_ros2_workspace/install/interface_example:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/ubuntu/code/engineai_ros2_workspace/build/interface_example
+[0.463s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/code/engineai_ros2_workspace/install/interface_example' for CMake config files
+[0.463s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface_example', 'cmake_prefix_path')
+[0.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/hook/cmake_prefix_path.ps1'
+[0.464s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/hook/cmake_prefix_path.dsv'
+[0.464s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/hook/cmake_prefix_path.sh'
+[0.464s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/code/engineai_ros2_workspace/install/interface_example/lib'
+[0.464s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/code/engineai_ros2_workspace/install/interface_example/bin'
+[0.464s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/code/engineai_ros2_workspace/install/interface_example/lib/pkgconfig/interface_example.pc'
+[0.465s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/code/engineai_ros2_workspace/install/interface_example/lib/python3.10/site-packages'
+[0.465s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/code/engineai_ros2_workspace/install/interface_example/bin'
+[0.465s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/package.ps1'
+[0.465s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/package.dsv'
+[0.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/package.sh'
+[0.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/package.bash'
+[0.466s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/package.zsh'
+[0.466s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/colcon-core/packages/interface_example)
+[0.466s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interface_example)
+[0.466s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/code/engineai_ros2_workspace/install/interface_example' for CMake module files
+[0.467s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/code/engineai_ros2_workspace/install/interface_example' for CMake config files
+[0.467s] Level 1:colcon.colcon_core.shell:create_environment_hook('interface_example', 'cmake_prefix_path')
+[0.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/hook/cmake_prefix_path.ps1'
+[0.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/hook/cmake_prefix_path.dsv'
+[0.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/hook/cmake_prefix_path.sh'
+[0.467s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/code/engineai_ros2_workspace/install/interface_example/lib'
+[0.467s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/code/engineai_ros2_workspace/install/interface_example/bin'
+[0.467s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/code/engineai_ros2_workspace/install/interface_example/lib/pkgconfig/interface_example.pc'
+[0.468s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/code/engineai_ros2_workspace/install/interface_example/lib/python3.10/site-packages'
+[0.468s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/code/engineai_ros2_workspace/install/interface_example/bin'
+[0.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/package.ps1'
+[0.468s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/package.dsv'
+[0.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/package.sh'
+[0.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/package.bash'
+[0.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/package.zsh'
+[0.468s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/colcon-core/packages/interface_example)
+[0.469s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.469s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.469s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.469s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.471s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.471s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.471s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.477s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.478s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/code/engineai_ros2_workspace/install/local_setup.ps1'
+[0.478s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/code/engineai_ros2_workspace/install/_local_setup_util_ps1.py'
+[0.479s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/code/engineai_ros2_workspace/install/setup.ps1'
+[0.479s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/code/engineai_ros2_workspace/install/local_setup.sh'
+[0.479s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/code/engineai_ros2_workspace/install/_local_setup_util_sh.py'
+[0.480s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/code/engineai_ros2_workspace/install/setup.sh'
+[0.480s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/code/engineai_ros2_workspace/install/local_setup.bash'
+[0.480s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/code/engineai_ros2_workspace/install/setup.bash'
+[0.481s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/code/engineai_ros2_workspace/install/local_setup.zsh'
+[0.481s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/code/engineai_ros2_workspace/install/setup.zsh'

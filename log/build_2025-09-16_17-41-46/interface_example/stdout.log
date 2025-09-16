@@ -1,0 +1,37 @@
+[35m[1mConsolidate compiler generated dependencies of target hold_joint_status[0m
+[35m[1mConsolidate compiler generated dependencies of target rl_basic_example[0m
+[35m[1mConsolidate compiler generated dependencies of target joint_test_example[0m
+[ 25%] Built target hold_joint_status
+[ 50%] Built target joint_test_example
+[100%] Built target rl_basic_example
+-- Install configuration: "Release"
+-- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/lib/interface_example/hold_joint_status
+-- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/lib/interface_example/joint_test_example
+-- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/lib/interface_example/rl_basic_example
+-- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/launch
+-- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/launch/rl_basic_example.launch.py
+-- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/config
+-- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/config/pm01
+-- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/config/pm01/rl_basic
+-- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/config/pm01/rl_basic/basic
+-- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/config/pm01/rl_basic/basic/rl_basic_param.yaml
+-- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/config/pm01/rl_basic/basic/policies
+-- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/config/pm01/rl_basic/basic/policies/pm01_v2_rough_ppo_42obs.mnn
+-- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/config/pm01/motor.yaml
+-- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/config/pm01/pd_joint_test.yaml
+-- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/config/pm01/joint_test.yaml
+-- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/ament_index/resource_index/package_run_dependencies/interface_example
+-- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/ament_index/resource_index/parent_prefix_path/interface_example
+-- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/environment/path.sh
+-- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/environment/path.dsv
+-- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/local_setup.bash
+-- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/local_setup.sh
+-- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/local_setup.zsh
+-- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/local_setup.dsv
+-- Installing: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/package.dsv
+-- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/ament_index/resource_index/packages/interface_example
+-- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/cmake/interface_exampleConfig.cmake
+-- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/cmake/interface_exampleConfig-version.cmake
+-- Up-to-date: /home/ubuntu/code/engineai_ros2_workspace/install/interface_example/share/interface_example/package.xml
